@@ -1,0 +1,292 @@
+body{
+    font-family: 'Anton', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+   
+}
+#container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+  }
+#tlo{
+    height:950px;
+    background-image:url('obr/tlo.jpg');
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#tlo2{
+  height:400px;
+  background-image:url('obr/tlo2.jpg');
+  background-size:cover;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#zapr{
+    
+ margin-top: 150px; 
+ text-align: center;
+ 
+}
+#ods{
+  margin-top: 400px;
+}
+h1{
+    font-size: 50px;
+}
+
+#kont{
+  margin-top: 50px;
+  
+    align-items: center;
+    text-align: center;
+    
+}
+#kont2{
+  
+  align-items: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.navbar{
+  font-size: 24px;
+}
+
+.navbar i {
+    font-size: 30px;
+  }
+.navbar  {
+    background-color:rgba(255, 255, 255, 0.5);
+   
+  }
+  #sklnav{
+    background-color: white;
+  }
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+    
+  }
+  .navbar a:hover{
+    color:dodgerblue; 
+  }
+
+  #butza {
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    background-color: white ;
+    opacity: 0,9;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+    opacity: 0.7;
+   }
+
+   #butza:hover{
+    color: dodgerblue;
+    transition: 0.4s;
+    opacity: 1;
+       
+   }
+   #naj{
+       margin-top: 50px;
+       margin-bottom: 50px;
+       
+   }
+   #tab{
+    
+  padding-left: 25px;
+    margin: 0;
+    display: flex;
+  align-items: center;
+  justify-content: center;  
+            
+   }
+
+   #butdow {
+    height: 50px;
+    width: 150px;
+    
+    background-color: white ;
+    opacity: 0,9;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+   }
+
+   #butdow:hover{
+    color: dodgerblue;
+    transition: 0.4s;
+     
+   }
+
+   #buton {
+    height: 50px;
+    width: 280px;
+    float: left;
+    background-color: white ;
+    opacity: 0,9;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+   }
+
+   #buton:hover{
+    color: dodgerblue;
+    transition: 0.4s;
+     
+   }
+
+a{
+     text-decoration: none;
+     color: black;
+   }
+   
+
+   #form{
+    border:2px solid black;
+    padding: 20px;
+   }
+   #bord{
+    border:2px solid black;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+   }
+   #ifc i{
+     font-size: 40px;
+
+   }
+  
+   .container-fluid{
+     width: 90%;
+   }
+
+   #corn{
+     border-radius: 70px 0 0 0;
+   }
+
+   #ofrt{
+    margin-top: 410px;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   #odd{
+     margin-top: 10px;
+     
+   }
+   #butku {
+    
+    height: 50px;
+    width: 200px;
+    float: center;
+    background-color: white ;
+    opacity: 0,9;
+    color: black;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+   }
+
+   #butku:hover{
+    color: dodgerblue;
+    transition: 0.4s;
+     
+   }
+   
+@media screen and (max-width: 1000px){
+  #butku{
+    height: 80px;
+    width: 100px;
+  }
+ 
+  #ros {   
+    flex-direction: column;
+  }
+  #bord{
+    margin-bottom: 15px;
+  }
+
+  #sum{
+    margin-top: 15px;
+  }
+
+  #ile{
+    text-align: left;
+     }
+    
+     #cen{
+      text-align: left;
+     }
+
+}
+
+
+#kosz{
+  margin-top: 150px;
+}
+
+#alg{
+  text-align: center;
+}
+
+#sum{
+  padding: 20px;
+  border: solid black 3px;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lod{
+  width: 100%;
+}
+
+#butus {
+    
+  height: 50px;
+  width: 100px;
+  float: center;
+  background-color: white ;
+  opacity: 0,9;
+  color: black;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 25px;
+ }
+
+ #butus:hover{
+  color: dodgerblue;
+  transition: 0.4s;
+   
+ }
+
+ #ile{
+text-align: right;
+ }
+
+ #cen{
+  text-align: center;
+ }
+
+ 
