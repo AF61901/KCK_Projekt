@@ -289,4 +289,22 @@ text-align: right;
   text-align: center;
  }
 
- 
+ #rz{
+  display: inline-block;
+  margin: 15px;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.form-group{
+  display: block;
+  margin: 15px;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div label {
+  display: block;
+}
